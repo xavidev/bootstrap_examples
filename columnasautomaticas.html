@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .row>div {
+            text-align: center;
+            background: #f2f2f2;
+            margin: 10px 0;
+        }
+
+        .uno {
+            background: #f2f2f2;
+        }
+
+        .dos {
+            background: #dbdbdb;
+            padding: 0 20px;
+        }
+
+        .tres {
+            background: #f2f2f2;
+        }
+    </style>
+    <title>Columnas automaticas</title>
+</head>
+
+<body>
+    <!-- <div class="container"> Creación de columnas automaticas.
+        <div class="row">
+            <div class="col uno">
+                <h3>Columna #1</h3>
+            </div>
+            <div class="col dos col-auto">
+                <h3>Columna #2</h3>
+            </div>
+            <div class="col tres">
+                <h3>Columna #3</h3>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Separación de columnas en una misma row -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Columna #1</h3>
+            </div>
+            <div class="col">
+                <h3>Columna #2</h3>
+            </div>
+            <div class="w-100"></div>
+            <div class="col">
+                <h3>Columna #2</h3>
+            </div>
+            <div class="col">
+                <h3>Columna #3</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
