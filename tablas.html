@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">,
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Tablas</title>
+    <style>
+        .columna {
+            margin: 20px;
+            /* background: #f2f2f2;
+            border: 1px solid #424242; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- .table-dark Nos permite cambiar los colores de la tabla a oscuros -->
+                <!-- .table-striped Nos permite alternar los colores entre cada fila -->
+                <!-- .table-bordered Nos permite agregarle bordes a la tabla-->
+                <!-- .table-hover Nos permite agregarle un hover a las filas-->
+                <!-- .table-sm Nos permite hacer la tabla mas pequeña eliminando paddings-->
+                <!-- .table-responsive-xx sm/md/lg/xl.. Nos permite adaptar nuestra tabla a dispositivos moviles-->
+                <table class="table table-hover table-bordered">
+                <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                            <th>Provincia</th>
+                        </tr>
+                    </thead>
+                    <!-- .table-active -->
+                    <!-- .table-success -->
+                    <!-- .table-warning -->
+                    <!-- .table-danger -->
+                    <!-- .table-info -->
+                    <tr class="table-success">
+                        <td>Anna</td>
+                        <td>31</td>
+                        <td>Barcelona</td>
+                    </tr>
+                    <!--Colores que podemos aplicar en todos los elementos-->
+                    <!--.bg-primary-->
+                    <!--.bg-success-->
+                    <!--.bg-warning-->
+                    <!--.bg-danger-->
+                    <!--.bg-info-->
+                    <tr class="bg-primary text-white">
+                        <td>Xavi</td>
+                        <td>28</td>
+                        <td>Barcelona</td>
+                    </tr>
+                    <tr class="table-warning">
+                        <td>Maite</td>
+                        <td>59</td>
+                        <td>Barcelona</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
